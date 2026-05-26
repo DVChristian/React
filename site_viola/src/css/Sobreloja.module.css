@@ -1,0 +1,42 @@
+.section {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(197, 2, 2);
+}
+
+.loja{
+    position: relative;
+    width: 40%;
+    height: 200px;
+    background-color: rgb(187, 122, 122);
+    color: white;
+    padding: 0.4rem;
+}
+
+.loja h2{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.loja p{
+    text-align: left;
+    margin-top: 0.6rem;
+    
+}
+
+.Imgloja{
+    width: 40%;
+    height: auto;
+}
+
+.Imgloja img {
+    width: 100%;
+    height: 200px;
+}
